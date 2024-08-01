@@ -1,0 +1,19 @@
+#main-section {
+    height: 548px;
+    background: linear-gradient(180deg, rgba(1,33,64,0.8) 0%, rgba(1,33,64,1) 87%, rgba(1,33,64,1) 100%), url(../img/home-img.png) no-repeat;
+    background-size: cover;
+}
+
+.main-wrapper {
+    display: flex;
+    max-width: 616px;
+    margin: auto;
+    height: 100%;
+    align-items: center;
+}
+
+.main-wrapper .left-part h1 {
+    font-size: 48px;
+    line-height: 56px;
+    font-weight: 700;
+}
