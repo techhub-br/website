@@ -42,3 +42,12 @@ strong {
 .bg-secondary {
     background-color: var(--secondary-color) !important
 }
+
+.card {
+    --bs-card-bg: #012344 !important;
+    color: white !important;
+}
+
+.card-body {
+    padding: 19px 28px !important;
+}

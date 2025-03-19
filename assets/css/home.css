@@ -1,3 +1,5 @@
+@import url(global.css);
+
 #main-section {
     height: 548px;
     background: linear-gradient(180deg, rgba(1,33,64,0.8) 0%, rgba(1,33,64,1) 87%, rgba(1,33,64,1) 100%), url(../img/home-img.png) no-repeat;
@@ -6,14 +8,50 @@
 
 .main-wrapper {
     display: flex;
-    max-width: 616px;
     margin: auto;
     height: 100%;
     align-items: center;
 }
+.main-wrapper, .numbers-wrapper, .emphasis-phrase {
+    max-width: 616px;
 
+}
 .main-wrapper .left-part h1 {
     font-size: 48px;
     line-height: 56px;
     font-weight: 700;
+}
+
+.numbers-wrapper figure {
+    border-radius: 50%;
+    background-color: #02274B;
+    padding: 16px;
+    max-width: fit-content;
+    margin: 0 auto;
+}
+
+.emphasis-phrase::before {
+    content: '';
+    display: block;
+    width: 8px;
+    height: 54px;
+    top: 9px;
+    background-color: #44E454;
+    border-radius: 1px;
+    position: absolute;
+    left: -40px;
+}
+
+.info-title {
+  
+    font-weight: 600;
+    font-size: 24px;
+    text-align: center;
+    margin: 17px 0 6px 0;
+}
+.info-text {
+    margin-bottom: 0;
+    text-align: center;
+    font-size: 12px;
+    color: rgba(79, 114, 148, 0.9);
 }
