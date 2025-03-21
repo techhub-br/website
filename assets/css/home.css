@@ -96,11 +96,26 @@
 .faq-section {
     margin-bottom: 70px;
 }
+.btn.discord {
+    background-color: #5865f2 !important;
+}
+.btn.whatsapp {
+    background-color: #25d366 !important;
+}
+.btn.youtube {
+    background-color: #ff2d2d !important;
+}
 footer {
     background: #082D52;
     padding: 12px;
 }
-
+.cta-section {
+    background: linear-gradient(180deg, rgba(1,33,64,0.8) 0%, rgba(1,33,64,0.8) 100%),
+    url('../img/cta-img.jpg');
+    background-size: cover;
+    background-position: 0 -550px;
+    background-attachment: fixed;
+}
 .cta-section .btn {
     background-color: #1a9126;
 }
