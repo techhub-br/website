@@ -30,11 +30,13 @@ strong {
     font-size: 14px;
     color: white;
     font-weight: 500;
-    background-color: blue;
     line-height: 1 !important;
-
+    transition: transform .2s ease-in-out, opacity .2s ease-in-out;
 }
-
+.btn:hover {
+    opacity: .8;
+    transform: translateY(-3px);
+}
 .bg-success {
     background-color: var(--success-color) !important;
 }
@@ -44,6 +46,7 @@ strong {
 }
 
 .card {
+
     --bs-card-bg: #012344 !important;
     color: white !important;
 }
@@ -51,3 +54,10 @@ strong {
 .card-body {
     padding: 19px 28px !important;
 }
+
+.accordion-item, .accordion-button {
+    border: none;
+    color: white;
+    background-color: #02274B !important;
+}
+
