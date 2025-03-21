@@ -17,7 +17,9 @@ body {
     color: white;
     font-family: Inter, Helvetica, Arial, sans-serif !important;
 }
-
+img {
+    max-width: 100%;
+}
 strong {
     color: var(--success-color) !important;
     font-weight: 700;
