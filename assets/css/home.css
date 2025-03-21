@@ -104,3 +104,12 @@ footer {
 .cta-section .btn {
     background-color: #1a9126;
 }
+
+@media screen and (min-width: 768px) {
+    .main-wrapper .left-part {
+        text-align: left !important;
+    }
+    .main-wrapper .left-part .d-flex {
+        justify-content: left !important;
+    }
+}
